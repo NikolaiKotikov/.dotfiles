@@ -1,0 +1,8 @@
+[user]
+	name = Nikolay Kotikov
+	email = nikolai.kotikov@gmail.com
+[core]
+	excludesFile = ~/.gitignore
+	autocrlf = input
+[init]
+	defaultBranch = main
