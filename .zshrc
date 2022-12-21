@@ -32,6 +32,7 @@ export PATH=$HOME/bin:$HOME/.local/scripts:/usr/local/bin:$PATH
 #--------------------------------------------------------------------------
 
 alias so="source ~/.zshrc"
+alias lg="lazygit"
 
 #--------------------------------------------------------------------------
 # Functions
