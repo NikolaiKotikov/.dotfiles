@@ -29,7 +29,7 @@ source $ZSH/oh-my-zsh.sh
 #--------------------------------------------------------------------------
 
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
-export PATH=$HOME/bin:$HOME/.local/scripts:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/scripts:$HOME/.local/bin:/usr/local/bin:$PATH
 
 #--------------------------------------------------------------------------
 # Aliases
@@ -43,7 +43,7 @@ alias lg="lazygit"
 #--------------------------------------------------------------------------
 
 function jp() {
-  selected=$(find ~/Projects -maxdepth 3 -mindepth 1 -type d | fzf)
+  selected=$(find ~/Projects -maxdepth 3 -mindepth 3 -type d | fzf)
 
   if [[ -z $selected ]]; then
     return
