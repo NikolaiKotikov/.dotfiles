@@ -2,7 +2,6 @@
 # Oh My Zsh
 #--------------------------------------------------------------------------
 
-# export PATH=$HOME/bin:$HOME/.local/scripts:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
