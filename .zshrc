@@ -36,6 +36,7 @@ export PATH=$HOME/bin:$HOME/.local/scripts:$HOME/.local/bin:/usr/local/bin:$PATH
 
 alias so="source ~/.zshrc"
 alias lg="lazygit"
+alias ta="tmux-sessionizer"
 
 #--------------------------------------------------------------------------
 # Functions
