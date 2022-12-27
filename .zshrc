@@ -13,7 +13,6 @@ plugins=(
   command-not-found
   sudo
   fzf
-  vi-mode
 )
 
 VI_MODE_SET_CURSOR=true
