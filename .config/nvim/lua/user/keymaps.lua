@@ -113,6 +113,7 @@ vim.keymap.set('n', '<leader>fF', [[<cmd>lua require('telescope.builtin').find_f
 vim.keymap.set('n', '<leader>fb', [[<cmd>lua require('telescope.builtin').buffers()<CR>]])
 vim.keymap.set('n', '<leader>fg', [[<cmd>lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>]])
 vim.keymap.set('n', '<leader>fh', [[<cmd>lua require('telescope.builtin').oldfiles()<CR>]])
+vim.keymap.set('n', '<leader>fd', require('telescope.builtin').diagnostics, { desc = '[S]earch [D]iagnostics' })
 
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeFindFileToggle<cr>", opts)
