@@ -9,3 +9,4 @@
 - [tmux](https://github.com/tmux/tmux/wiki) >= 3.2a
 - [neovim](https://neovim.io/) >= 0.9.0
 - [fzf](https://github.com/junegunn/fzf)
+- [Nerd Font (Fira Code)](https://www.nerdfonts.com/font-downloads)
