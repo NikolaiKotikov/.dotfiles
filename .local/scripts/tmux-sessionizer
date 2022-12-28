@@ -4,7 +4,11 @@
 # https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer
 
 if [[ $# -eq 1 ]]; then
-    selected=$1
+    if [[ "$1" == "." ]]; then
+      selected=$(pwd)
+    else
+      selected=$1
+    fi
 else
     selected=$(find ~/Projects -maxdepth 3 -mindepth 3 -type d | fzf)
 fi
