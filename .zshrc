@@ -62,6 +62,16 @@ function exp() {
   explorer.exe $selected
 }
 
+function c() {
+  if [[ $1 ]]; then
+    selected=$1
+  else
+    selected="."
+  fi
+
+  code $selected
+}
+
 #--------------------------------------------------------------------------
 # Miscellaneous
 #--------------------------------------------------------------------------
