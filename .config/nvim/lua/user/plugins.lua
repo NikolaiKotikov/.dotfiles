@@ -46,6 +46,11 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "kyazdani42/nvim-web-devicons" -- Fancy icons set used my several packages
 
+  -- Terminal
+  use {
+    "akinsho/toggleterm.nvim", tag = '*',
+    config = function() require("user.plugins.toggleterm") end
+  }
   -- Lsp
   use {
     'VonHeikemen/lsp-zero.nvim',
