@@ -36,6 +36,7 @@ export PATH=$HOME/bin:$HOME/.local/scripts:$HOME/.local/bin:/usr/local/bin:$PATH
 alias so="source ~/.zshrc"
 alias lg="lazygit"
 alias ta="tmux-sessionizer"
+alias vim="nvim"
 
 #--------------------------------------------------------------------------
 # Functions
@@ -49,6 +50,16 @@ function jp() {
   fi
 
   cd $selected
+}
+
+function exp() {
+  if [[ $1 ]]; then
+    selected=$1
+  else
+    selected="."
+  fi
+
+  explorer.exe $selected
 }
 
 #--------------------------------------------------------------------------
