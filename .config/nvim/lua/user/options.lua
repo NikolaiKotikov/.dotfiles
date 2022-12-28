@@ -37,9 +37,8 @@ vim.opt.iskeyword:append("-")                         -- treats words with `-` a
 vim.opt.formatoptions:remove({ "c", "r", "o" })       -- This is a sequence of letters which describes how automatic formatting is to be done
 vim.opt.linebreak = true
 vim.opt.list = true                                   -- enable the below listchars
-vim.opt.listchars = { tab = '▸ ', trail = '·' }
+vim.opt.listchars = { tab = ' ', trail = '·' }
 vim.opt.fillchars:append({ eob = ' ' })               -- remove the ~ from end of buffer
-
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
