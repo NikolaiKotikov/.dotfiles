@@ -33,6 +33,7 @@ alias so="source ~/.zshrc"
 alias lg="lazygit"
 alias t="tmux-sessionizer"
 alias ta="tmux a"
+alias tk="tmux kill-server"
 alias vim="nvim"
 
 #--------------------------------------------------------------------------
