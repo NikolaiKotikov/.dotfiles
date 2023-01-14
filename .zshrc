@@ -32,6 +32,7 @@ export PATH=$HOME/bin:$HOME/.local/scripts:$HOME/.local/bin:/usr/local/bin:$PATH
 alias so="source ~/.zshrc"
 alias lg="lazygit"
 alias t="tmux-sessionizer"
+alias y="yadm"
 alias ta="tmux a"
 alias tk="tmux kill-server"
 alias vim="nvim"
@@ -41,7 +42,8 @@ alias vim="nvim"
 #--------------------------------------------------------------------------
 
 function jp() {
-  selected=$(find ~/Projects -maxdepth 3 -mindepth 3 -type d | fzf)
+  depth="${1:-3}"
+  selected=$(find ~/Projects -maxdepth $depth -mindepth $depth -type d | fzf)
 
   if [[ -z $selected ]]; then
     return
