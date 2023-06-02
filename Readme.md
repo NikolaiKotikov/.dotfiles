@@ -4,8 +4,7 @@
 
 - [git](https://git-scm.com/)
 - [yadm](https://yadm.io/) - dotfiles manager
-
-## Usage
-
-- clone the repository with yadm
-- checkout to correct branch
+- [zsh + oh my zsh](https://ohmyz.sh/)
+- [tmux](https://github.com/tmux/tmux/wiki) >= 3.2a
+- [neovim](https://neovim.io/) >= 0.9.0
+- [Nerd Font (Fira Code)](https://www.nerdfonts.com/font-downloads)
