@@ -1,9 +1,0 @@
-[user]
-  name = Nikolay Kotikov
-  email = nikolai.kotikov@gmail.com
-[core]
-  editor = nvim
-  excludesFile = ~/.gitignore
-  autocrlf = input
-[init]
-  defaultBranch = main
