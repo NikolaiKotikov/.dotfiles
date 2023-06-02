@@ -1,3 +1,4 @@
 #!/bin/sh
 
 sudo ln -s ~/keyd.conf /etc/keyd/default.conf
+yadm decrypt
