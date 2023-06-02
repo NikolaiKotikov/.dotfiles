@@ -7,4 +7,3 @@
 - [zsh + oh my zsh](https://ohmyz.sh/)
 - [tmux](https://github.com/tmux/tmux/wiki) >= 3.2a
 - [neovim](https://neovim.io/) >= 0.9.0
-- [Nerd Font (Fira Code)](https://www.nerdfonts.com/font-downloads)
